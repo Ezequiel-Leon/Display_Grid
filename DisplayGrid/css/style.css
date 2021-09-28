@@ -1,0 +1,188 @@
+body{
+    display: grid;
+    grid-template-rows: 0.2fr 0.8fr 4fr 0.5fr;
+    background: #e9c46a;
+    font-family: "Bauhaus 93";
+    color:black;
+    font-size: x-large;
+}
+#header{
+    background: #0026E6;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid white;
+    height: 150px;
+    box-shadow: 5px 5px 6px 0 #F0F9FA;
+    margin: 5px 8px 5px 13px;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+#navbar{
+    background: #B3CCFF;
+    height: 80px;
+    width: 97%;
+    margin: 5px 15px 0px 10px;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 3px 3px 4px 0 white; 
+    border: 2px solid white; 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+    grid-gap: 45%;
+}
+#span-sec{
+    padding: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    column-gap: 25px;
+}
+#span-sec1{
+    padding: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    column-gap: 15px;
+}
+#span{
+    display: grid;
+    height: 50px;
+    width: 70px;
+    align-content: center;
+    justify-content: center;
+    background-color: #e9c46a;
+    border-radius: 7px 7px 7px 7px;
+    border:1px solid blue;
+    box-shadow: 5px 5px 6px 0 blue;
+}
+#main{
+    background: blue;
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    height: 720px;
+    border: 3px solid white;
+    margin: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 6px 0 white;
+ }
+ #sec-main{
+     display: grid;
+     grid-template-rows: 0.3fr 2fr 8fr;
+    align-items: center;
+    justify-content: center;
+ }
+ #sec1-main{
+    display: grid;
+   align-items: center;
+   justify-content: center;
+}
+#ico{
+    display: grid;
+    justify-content: center;
+}
+#iconos{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(8, 60px);
+    width: 700px;
+    background: #e9c46a;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#icono{
+    display: grid;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px rebeccapurple;
+}
+#seccion{
+    display: grid;
+    justify-content: center;    
+    grid-template-rows: 0.3fr 1fr 1fr;
+    background: #e9c46a;
+    width: 1100px;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 6px 0 black;
+}
+#formu{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 15px;
+    padding: 15px;
+}
+#formu1{
+    display: grid;
+    grid-template-columns: repeat(2, 0.1fr);
+    align-items: center ;
+    justify-content: space-around;
+    padding: 15px;
+}
+#div{
+  display: grid;
+    background-color: #F0F9FA;
+     color: black;
+    font-size: 25px;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px blue;
+    border-radius: 20px;
+    border: 2px solid blue;
+    padding: 55px 55px 55px 55px;
+}
+#aside{
+    display: grid;
+    grid-template-rows: 0.3fr 4fr;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    background-color: #B3CCFF;
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#a{
+    color: black;
+    display: grid;
+    align-items: center;
+    background: white;
+    padding: 15px 45px 15px 45px;
+    font-size: 25px;
+    border-radius: 30px;
+    border:1px solid blue;
+    margin: 1em;
+    box-shadow: 5px 5px 6px 0 blue;
+}
+#footer{
+    display: grid;
+    justify-content: center;
+    background-color: #B3CCFF;
+    border-radius: 50px;
+    border: 3px solid blue;
+    height: 89px;
+    box-shadow: 5px 5px 6px 0 blue;
+    margin: 10px;
+}
+#ti-header,
+#ti-main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;  
+}
+#ti-aside, 
+#ti-body,
+#ti-section,
+#ti-footer,
+#ti-Navbar{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
